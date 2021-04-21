@@ -137,10 +137,15 @@ body{
   z-index: -1;
   padding : 0px 20px 0px 20px;
   height : 210px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .align{
     text-align: right;
     color: red;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
+
 
