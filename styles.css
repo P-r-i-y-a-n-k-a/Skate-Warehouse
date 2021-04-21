@@ -1,0 +1,145 @@
+body{
+    background-color: lightgrey;
+}
+.b{
+    display: block;
+    margin-left: 30px;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    width: 150px;
+
+}
+.ba{
+    background-color: black;
+    color: white;
+    padding: 0px 20px 10px 20px;
+    
+    font-size: large;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+}
+.color{
+    background-color: transparent;
+}
+.mar{
+    margin-right: 30px;
+}
+.mar-lf{
+    margin-left: 290px;
+    margin-top: 50px;
+}
+.mar-lg{
+    margin-left: 0px;
+    margin-top :50px;
+
+}
+.no-mrg{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+.navbar{
+    border-bottom: 2px solid red;
+}
+
+.sidenav {
+    height: 100%;
+    width: auto;
+    margin-top: 150px;
+    margin-left: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: red;
+    border-right: red;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+      border-right: red;
+    background-color: transparent;
+    color:grey;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: transparent;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  .f-size{
+      font-size: smaller;
+  }
+.z{
+    position: relative;
+    right: 70px;
+    margin: 0px;
+    background-size: 0px;
+    padding-right: 10;
+    width : 170px;
+    float: left;
+    
+    
+
+}
+.wid{
+   margin-left: 5px; 
+    width: 30%;
+    padding: 0px;
+    
+
+}
+.hi{
+    position: relative;
+    right: 140px;
+  background-color : white;
+  border : 1px solid transparent;
+  z-index: -1;
+  padding : 0px 20px 0px 20px;
+}
+
+.align{
+    text-align: right;
+    color: red;
+}
+
